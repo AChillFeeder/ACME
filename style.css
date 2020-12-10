@@ -14,12 +14,21 @@ body, html{
 	width: 100%;
 }
 
+button{
+	transition: 0.8s;
+	transition-property: background-color border-color color;
+}
+button:hover{
+	cursor: pointer;
+}
 
 /* ANNOUNCEMENT */
 
 #announcement{
 	background-color: #222222;
 	padding: 15px;
+}#announcement:hover{
+	cursor: pointer;
 }
 
 #announcement button{
@@ -159,10 +168,14 @@ body, html{
 	color: white;
 	font-size: 17px;
 	border: 2px solid white;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	width: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 250px;
 	border-radius: 5px;
+}.banner button:hover{
+	background-color: white;
+	/* border-color: black; */
+	color: black;
 }
 
 
@@ -276,6 +289,10 @@ body, html{
 	left: 70%;
 	color: black;
 	background-color: white;
+}#keeping-you-safe button:hover{
+	background-color: transparent;
+	color: white;
+	border-color: white;
 }
 
 
@@ -351,7 +368,7 @@ body, html{
 
 .details{
 	background-color: #eb5757;
-	border: none;
+	border: 1px solid #eb5757;
 	padding: 10px 20px 10px 20px;
 	margin-top: 10px;
 
@@ -359,13 +376,17 @@ body, html{
 	font-weight: bold;
 	font-size: 15px;
 	border-radius: 5px;
+}.details:hover{
+	background-color: white;
+	border-color: #eb5757;
+	color: #eb5757;
 }
 
 
 #view-all-products{
 	margin-top: 50px;
-	padding: 10px 30px 10px 30px;
-	width: 200px;
+	padding: 20px 0 20px 0;
+	width: 250px;
 
 	background-color: #222;
 	border-radius: 5px;
@@ -373,7 +394,11 @@ body, html{
 	font-weight: bold;
 	font-size: 14px;
 	color: white;
-	border: none;
+	border: 1px solid black;
+}#view-all-products:hover{
+	background-color: white;
+	color: black;
+	border-color: black;
 }
 
 .picture p{
