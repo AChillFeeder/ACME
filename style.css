@@ -489,7 +489,7 @@ button:hover{
 	}
 	#header #logo{
 		float: none;
-		margin: none;
+		margin: 0;
 		width: auto;
 	}
 	#header #logo img{
@@ -511,7 +511,17 @@ button:hover{
 		margin: 0;
 		width: 100%;
 	}
+	#header #nav-bar ul li{
+		margin-right: 5%;
+	}
+	#serving-you{
+		padding: 20% 20px;
+	}
+	#serving-you h1{
+		margin-top: 0;
+	}
 	#serving-you p{
+		margin: 30px 0;
 		width: 100%;
 	}
 
@@ -528,14 +538,19 @@ button:hover{
 	}
 	#support #description{
 		float: none;
-		width: 100%;
 		margin-left: 0;
+		padding: 0 5%;
+		width: auto;
+	}
+	#support #title h2{
+		font-size: 25px;
 	}
 	.card{
 		display: block;
-		width: 80%;
+		width: 100%;
+		margin-bottom: 80px;
 	}
-	#donate, #gift-card{
+	#donate, #gift-cards{
 		margin-left: 0;
 	}
 	.card h2{
@@ -543,20 +558,27 @@ button:hover{
 	}
 	#keeping-you-safe{
 		text-align: center;
-		padding: none;
+		padding: 15% 20px;
 	}
 	#keeping-you-safe p{
 		width: 100%;
 	}
 	#shop-product{
-		padding: 0;
+		padding: 15% 20px;
 	}
 	#shop-product .product{
-		display: unset;
+		display: block;
 		width: 100%;
-	}
-	#shop-product, #coffee-mug, #backpack, #gift-cards{
+		margin-top: 70px;
 		margin-left: 0;
+	}
+	#shop-product #coffee-mug{
+		margin-left: 0;
+	}
+	.picture p {
+		float: right;
+		margin-right: 20px;
+		position: unset;
 	}
 	#last-words{
 		padding: 0;
@@ -564,15 +586,11 @@ button:hover{
 		width: 100%;
 	}
 	#last-words #image{
-		/* background-color: none;
-		width: 300px;
-		margin-top: 0;
-		background-size: unset; */
 		display: none;
 	}
 	#last-words #text{
-		/* padding: 5% 20px; */
-		width: 100%;
+		padding: 5% 5% 100px;
+		width: auto;
 		margin: 0;
 		text-align: center;
 	}
@@ -587,8 +605,14 @@ button:hover{
 		position: unset;
 		top: unset;
 	}
-
-
+	#ways-to-support{
+		width: auto;
+		margin-left: 0;	
+		padding: 5%;
+	}
+	.card .description{
+		margin-top: 20px;
+	}
 }
 
 
