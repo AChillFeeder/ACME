@@ -1,0 +1,498 @@
+
+body, html{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+#fixed{
+	top: 0;
+	position: sticky;
+	width: 100%;
+}
+
+
+/* ANNOUNCEMENT */
+
+#announcement{
+	background-color: #222222;
+	padding: 15px;
+}
+
+#announcement button{
+	background: none;
+	border: none;
+	
+	background-color: #eb5757;
+	border-radius: 50px;
+	color: white;
+	font-size: 15px;
+
+	padding: 8px;
+	width: 160px;
+	/* margin-left: 410px; */
+	margin-left: 35%;
+}
+
+#announcement p{
+	display: inline-block;
+	color: white;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+/* HEADER */
+
+#header{
+	background-color: #eb5757;
+	height: 80px;
+
+}
+
+#header #logo{
+	float: left;
+}
+
+#header #logo img{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-left: 75px;
+}
+
+#header #logo p{
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	letter-spacing: 6px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
+
+#header #nav-bar ul{
+	margin-top: 21px;
+	margin-right: 20px;
+	float: right;
+	list-style: none;
+}
+
+#header #nav-bar li{
+	display: inline-block;
+	color: white;
+	margin-left: 50px;
+	padding: 9px;
+	border-radius: 5px;
+}
+
+#header #nav-bar li:hover{
+	background-color: #222222;
+	cursor: pointer;
+}
+
+#header #cart{
+	background-color: #222222;
+	margin-left: 20px;
+	border-radius: 5px;
+	float: right;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-right: 50px;
+}
+
+#header #counter{
+	position: absolute;
+	top: inherit;
+	right: 45px;
+	border-radius: 50%;
+	width: 17px;
+	/* height: 25px; */
+	padding: 5px;
+	text-align: center;
+	background-color: white;
+	font-size: 12px;
+}
+
+
+
+/* BANNER */
+
+.banner{
+	background-color: #222222;
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(360deg, rgba(0,0,0,1), rgba(0,0,0,0)), url('images/wallpaper.jpg');
+	padding: 100px;
+	padding-left: 5%;
+}
+
+
+.banner h1{
+	font-weight: bold;
+	color: white;
+	font-size: 60px;
+	margin-bottom: 0;
+}
+
+
+.banner p{
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+	width: 35%;
+}
+
+.banner button{
+	background: none;
+	border: none;
+	font-weight: bold;
+	color: white;
+	font-size: 17px;
+	border: 2px solid white;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 150px;
+	border-radius: 5px;
+}
+
+
+
+
+/* SUPPORT */
+
+#support{
+	padding: 50px 100px 50px 50px;
+}
+
+#support #title{
+	width: max-content;
+	/* float: left; */
+	display: inline-block;
+	line-height: 10px;
+	margin-top: 20px;
+}
+
+#support #title h2{
+	font-size: 30px;
+}
+
+#support #description{
+	/* display: inline-block; */
+	float: right;
+	width: 45%;
+	margin-left: 100px;
+	/* margin-bottom: 100px; */
+	line-height: 23px;
+	font-size: 18px;
+}
+
+
+
+
+
+
+/* WAYS TO SUPPORT */
+
+#ways-to-support{
+	padding-top: 50px;
+}
+
+.card{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+
+#donate, #gift-cards{
+	margin-left: 4.5%;
+}
+
+
+.card .square{
+	background-color: #222222;
+	height: 350px;
+	color: white;
+	font-size: 30px;
+}
+
+.card h2{
+	padding-left: 30px;
+	padding-top: 15%;
+	font-size: 30px;
+}
+
+.card h3{
+	text-align: center;
+	margin-top: 75px;
+}
+
+.card .description{
+	margin-top: 50px;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+/* KEEPING YOU SAFE */
+
+#keeping-you-safe{
+	height: 350px;
+	text-align: right;
+	background-image: linear-gradient(360deg, rgba(0,0,0,1), rgba(0,0,0,0)), url('images/second_wallpaper.jpg');
+}
+
+
+#keeping-you-safe .text{
+	float: right;
+	right: 0;
+	font-size: 15px;
+	line-height: 25px;
+}
+
+#keeping-you-safe button{
+	position: absolute;
+	top: inherit;
+	margin-top: 120px;
+	width: 250px;
+	padding: 10px 20px 10px 20px;
+	/* right: 100px; */
+	left: 70%;
+	color: black;
+	background-color: white;
+}
+
+
+
+
+
+/* SHOP PRODUCTS */
+
+#shop-product{
+	padding: 50px 80px 50px 80px;
+	text-align: center;
+	font-family: 'Sen', sans-serif;
+}
+
+#shop-product #title{
+	line-height: 15px;
+	text-align: left;
+}
+
+#shop-product #products{
+	text-align: center;
+	width: 100%;
+}
+
+#shop-product .product{
+	display: inline-block;
+	width: 30%;
+	line-height: 5px;
+}
+
+#shop-product #coffee-mug, #backpack{
+	margin-left: 4%;
+}
+
+#shop-product .picture{
+	background-color: turquoise;
+	height: 500px;
+	background-size: cover;
+	background-position-x: -200px;
+	border-radius: 5px;
+}
+
+
+#white-tent .picture{
+	background-image: url('images/tent.jpg');
+}
+
+#coffee-mug .picture{
+	background-image: url('images/mug.jpg');
+	background-position-x: -350px;
+}
+
+#backpack .picture{
+	background-image: url('images/backpack.jpg');
+}
+
+
+.product h3{
+	font-weight: normal;
+	margin-top: 30px;
+}
+
+.product p{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.product p .barred{
+	text-decoration: line-through;
+	color: #eb5757;
+	margin-left: 10px;
+}
+
+.details{
+	background-color: #eb5757;
+	border: none;
+	padding: 10px 20px 10px 20px;
+	margin-top: 10px;
+
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+
+#view-all-products{
+	margin-top: 50px;
+	padding: 10px 30px 10px 30px;
+	width: 200px;
+
+	background-color: #222;
+	border-radius: 5px;
+
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	border: none;
+}
+
+.picture p{
+	position: absolute;
+	top: inherit;
+	background-color: #eb5757;
+	color: white;
+	border-radius: 5px;
+
+	margin-top: 20px;
+	margin-left: 19%;
+	padding: 15px;
+	width: 50px;
+}
+
+
+
+
+
+
+/* Last words */
+
+
+#last-words{
+	padding: 50px 80px 50px 80px;
+}
+
+#last-words #image{
+	float: left;
+	background-color: turquoise;
+	width: 30%;
+	height: 450px;
+	margin-top: 80px;
+
+	background-image: url('images/people.jpg');
+	background-size: 270%;
+	background-position: -410px;
+}
+
+#last-words #text{
+	height: 600px;
+	width: 80%;
+	background-color: #222;
+	margin-left: 200px;
+
+	color: white;
+}
+
+#text p{
+    width: 50%;
+    margin-left: 45%;
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 50px;
+    padding-top: 150px;
+}
+
+#text h3{
+	font-size: 45px;
+	padding-top: 30px;
+	margin-left: 31.5%;
+	position: absolute;
+	top: inherit;
+}
+
+
+
+@media screen and (min-width: 1250px){
+	
+}
+
+
+@media screen and (max-width: 768px){
+	p, h3, h1, h2{
+		transform: scale(0.6);
+	}
+	#support{
+		padding: 50px 0 50px 0;
+	}
+
+	#title{
+		width: fit-content;
+	}
+	#keeping-you-safe button{
+		left: 0;
+	}
+	#last-words #image{
+		float: none;
+	}
+	#last-words #text {
+		margin-left: 0;
+	}
+
+	#fixed{
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
