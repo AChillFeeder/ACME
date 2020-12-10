@@ -314,7 +314,7 @@ body, html{
 	background-color: turquoise;
 	height: 500px;
 	background-size: cover;
-	background-position-x: -200px;
+	background-position-x: 50%;
 	border-radius: 5px;
 }
 
@@ -325,7 +325,7 @@ body, html{
 
 #coffee-mug .picture{
 	background-image: url('images/mug.jpg');
-	background-position-x: -350px;
+	background-position-x: 65%;
 }
 
 #backpack .picture{
@@ -410,11 +410,11 @@ body, html{
 
 	background-image: url('images/people.jpg');
 	background-size: 270%;
-	background-position: -410px;
+	background-position: 70%;
 }
 
 #last-words #text{
-	height: 600px;
+	height: fit-content;
 	width: 80%;
 	background-color: #222;
 	margin-left: 200px;
@@ -428,7 +428,8 @@ body, html{
     font-size: 16px;
     line-height: 23px;
     margin-top: 50px;
-    padding-top: 150px;
+	padding-top: 150px;
+	padding-bottom: 150px;
 }
 
 #text h3{
