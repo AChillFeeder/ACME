@@ -67,13 +67,13 @@ button:hover{
 
 #header #logo{
 	float: left;
+	margin-left: 5%;
 }
 
 #header #logo img{
 	width: 75px;
 	height: 75px;
 	float: left;
-	margin-left: 75px;
 }
 
 #header #logo p{
@@ -89,6 +89,7 @@ button:hover{
 #header #nav-bar ul{
 	margin-top: 21px;
 	margin-right: 20px;
+	width: 50%;
 	float: right;
 	list-style: none;
 }
@@ -96,7 +97,7 @@ button:hover{
 #header #nav-bar li{
 	display: inline-block;
 	color: white;
-	margin-left: 50px;
+	margin-left: 3%;
 	padding: 9px;
 	border-radius: 5px;
 }
@@ -467,12 +468,9 @@ button:hover{
 
 
 
-@media screen and (min-width: 1250px){
-	
-}
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 850px){
 	p, h3, h1, h2{
 		transform: scale(0.6);
 	}
