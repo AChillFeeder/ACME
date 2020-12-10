@@ -471,29 +471,124 @@ button:hover{
 
 
 @media screen and (max-width: 850px){
-	p, h3, h1, h2{
-		transform: scale(0.6);
+	
+	#fixed{
+		position: unset;
 	}
-	#support{
-		padding: 50px 0 50px 0;
+	#announcement{
+		padding: 30px 0;
+		text-align: center;
 	}
-
-	#title{
-		width: fit-content;
-	}
-	#keeping-you-safe button{
-		left: 0;
-	}
-	#last-words #image{
-		float: none;
-	}
-	#last-words #text {
+	#announcement button{
 		margin-left: 0;
 	}
-
-	#fixed{
+	#header{
+		height: 200px;
+		padding-top: 3%;
+		text-align: center;
+	}
+	#header #logo{
+		float: none;
+		margin: none;
+		width: auto;
+	}
+	#header #logo img{
+		width: 50px;
+		height: 50px;
+		float: none;
+	}
+	#header #logo p{
+		display: unset;
+		margin-top: 0;
+		float: left;
+		width: 100%;
+		margin-left: 0;
+	}
+	#header #counter, #header #cart{
 		display: none;
 	}
+	#header #nav-bar ul{
+		margin: 0;
+		width: 100%;
+	}
+	#serving-you p{
+		width: 100%;
+	}
+
+	.banner{
+		padding: 50px 5%;
+		text-align: center;
+	}
+	.banner h1{
+		font-size: 3em;
+	}
+	#support{
+		text-align: center;
+		padding: 0;
+	}
+	#support #description{
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+	.card{
+		display: block;
+		width: 80%;
+	}
+	#donate, #gift-card{
+		margin-left: 0;
+	}
+	.card h2{
+		padding-left: 0;
+	}
+	#keeping-you-safe{
+		text-align: center;
+		padding: none;
+	}
+	#keeping-you-safe p{
+		width: 100%;
+	}
+	#shop-product{
+		padding: 0;
+	}
+	#shop-product .product{
+		display: unset;
+		width: 100%;
+	}
+	#shop-product, #coffee-mug, #backpack, #gift-cards{
+		margin-left: 0;
+	}
+	#last-words{
+		padding: 0;
+		margin-top: 80px;
+		width: 100%;
+	}
+	#last-words #image{
+		/* background-color: none;
+		width: 300px;
+		margin-top: 0;
+		background-size: unset; */
+		display: none;
+	}
+	#last-words #text{
+		/* padding: 5% 20px; */
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
+	#text p{
+		width: auto;
+		margin-left: 0;
+		padding: 0;
+	}
+	#text h3{
+		margin-left: unset;
+		padding-top: unset;
+		position: unset;
+		top: unset;
+	}
+
+
 }
 
 
