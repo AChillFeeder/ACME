@@ -3,3 +3,6 @@ This is my attempt at re-creating a design I found online completely from scratc
 
 You can check the website here!
 https://acme-portfolio-website.netlify.app/
+
+Credits:
+https://webflow.com/templates/html/biznus-retail-website-template
