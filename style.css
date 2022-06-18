@@ -290,6 +290,7 @@ button:hover{
 #keeping-you-safe button{
 	color: black;
 	background-color: white;
+	margin-top: 10%;
 }#keeping-you-safe button:hover{
 	background-color: transparent;
 	color: white;
